@@ -38,3 +38,32 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+##############################
+### Default gem end above ####
+
+### For mobile
+gem 'jquery_mobile_rails'
+
+gem 'haml'
+
+gem "haml-rails"
+
+### To BDD
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'database_cleaner'
+  gem 'capybara'
+end
+
+  gem 'actionview'
+
+
+
+
+
+
+
+
