@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'test_view/testMap'
+
+  get 'test_view/testList'
+
+  get 'test_view/testMapPhone'
+
+  get 'test_view/testListPhone'
+
   resources :tasks
   root 'tasks#index'
 
