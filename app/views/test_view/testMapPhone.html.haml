@@ -1,2 +1,11 @@
-%h1 TestView#testMapPhone
-%p Find me in app/views/test_view/testMapPhone.html.haml
+%script{:src => "testJQ.js"}
+%div{"data-role" => "page"}
+  %div{"data-role" => "header"}
+    %h1 Welcome To My Homepage
+  .ui-content{"data-role" => "main"}
+    //%p I Am Now A Mobile Developer!!
+    %test This is a paragraph.
+    //%button{:onclick => "appendText()"} Append text
+    #map{:style => "width: 80%; height: 400px; position: absolute;"}
+  %div{"data-role" => "footer"}
+    %h1 Footer Text

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'test_view/testListPhone'
 
+  get 'test_view/map'
+
   resources :tasks
   root 'tasks#index'
 

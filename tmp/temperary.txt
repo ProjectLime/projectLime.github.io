@@ -1,0 +1,10 @@
+%div{"data-role" => "page", "data-url" => request.path}
+  //%div{"data-role" => "header"}
+  %div{:data => {:role => 'header'}}
+    %h1 Welcome To My Homepage
+  //%div{"data-role" => "main" "class" => "ui-content" }
+  %div{:data => {:role => 'content'}}
+    %h3 I Am Now A Mobile Developer!!
+  //%div {"data-role" =>"footer"}
+  %div{:data => {:role => 'footer'}}
+    %h1 Footer Text

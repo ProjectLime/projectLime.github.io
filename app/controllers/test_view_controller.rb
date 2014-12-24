@@ -10,4 +10,7 @@ class TestViewController < ApplicationController
 
   def testListPhone
   end
+
+  def map
+  end
 end
