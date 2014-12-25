@@ -4,3 +4,4 @@ $ ->
   googleLayer = new L.Google("ROADMAP")
   map.addLayer googleLayer
 
+  marker = L.marker([25.0389,121.559]).addTo(map)

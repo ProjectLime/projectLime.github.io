@@ -3,10 +3,6 @@
   %head
   %title ProjectLime
   %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
-  //:css
-  //  html { height: 100% }
-  //  body { height: 100%; margin: 0; padding: 0 }
-  //  #map_canvas { height: 100% }
   = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
   = javascript_include_tag "application", "data-turbolinks-track" => true
   = csrf_meta_tags
@@ -14,11 +10,11 @@
   %script{:src => "http://code.jquery.com/jquery-1.11.1.min.js"}
   %script{:src => "http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"}
   %link{:href => "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css", :rel => "stylesheet"}
+
   //= stylesheet_link_tag "test", media: "all"
   //%body
-  %body{:onload => "initialize()"}
-    //%div{"data-role" => "page", "data-url" => request.path}
-    //%br
+  %body
+
     =yield
 
     %script{:src => "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"}
