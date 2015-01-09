@@ -5,3 +5,4 @@ $ ->
   map.addLayer googleLayer
 
   marker = L.marker([25.0389,121.559]).addTo(map)
+  marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup()
