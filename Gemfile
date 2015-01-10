@@ -60,6 +60,10 @@ end
 
   gem 'actionview'
 
+#######
+
+  gem 'devise'
+
 
 
 

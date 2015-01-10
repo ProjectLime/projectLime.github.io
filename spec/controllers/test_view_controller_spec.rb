@@ -46,7 +46,12 @@ RSpec.describe TestViewController, :type => :controller do
     describe "On message bar" do
 
       context "User regidter" do
-        it register do
+        context "Devise module activated" do
+          it create a new user on database do
+            pending
+          end
+        end
+        it create a user profile related to user database do
           pending
         end
       end
@@ -74,12 +79,30 @@ RSpec.describe TestViewController, :type => :controller do
       it map help post status changed do
         pending
       end
+
     end
 
     describe "Being a civilian" do
       it civilian can post a need do
         pending
+        context "the local time zone" do
+          it switch time zone do
+            pending
+          end
+        end
+        context "the need mission generated" do
+          it create a mark on map do
+            pending
+          end
+        end
+
+        context "before the mission due date"do
+          it show mark on the map do
+            pending
+          end
+        end
       end
+
     end
   end
 
