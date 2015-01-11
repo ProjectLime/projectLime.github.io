@@ -14,6 +14,11 @@
   //= stylesheet_link_tag "test", media: "all"
   //%body
   %body
+    / flash messages below
+    %p.notice= notice
+      / by the request of device gem:  <p class="notice"><%= notice %></p> on application.html.erb
+    %p.alert= alert
+      -# by the request of device gem: <p class="alert"><%= alert %></p>
 
     =yield
 

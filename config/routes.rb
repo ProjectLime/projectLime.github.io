@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'test_view/testMap'
 
   get 'test_view/testList'
